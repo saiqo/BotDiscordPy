@@ -20,13 +20,7 @@ def get_prefix(bot, message):
 intents = Intents.all()
 
 bot = commands.Bot(command_prefix=get_prefix, description="Bot de Saiqo", intents=intents, help_command=None)
-status = [f"help",
-          "Rocket League",
-          "Trayte est nul",
-          "Macron EXPLOSION",
-          "Yes i am",
-          "Je suis froncé",
-          "Yes is a giroud"]
+status = [f"help", "working", "busy"]
 
 
 @bot.event
